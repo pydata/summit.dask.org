@@ -1,0 +1,107 @@
+/*
+Theme Name: Ova Dione Child Theme
+Theme URI: http://ovathemes.com/portfolio
+Description: This is child theme of dione
+Author: Ovatheme
+Author URI: http://ovathemes.com
+Template: ova-dione
+Version: 1.0
+Tags: translation-ready, left-sidebar, right-sidebar
+Text Domain:  ova-dione-child
+*/
+
+/* 2021-02-13: Fix by Martey for dropdown select arrows. */
+select.form-control {
+  background: #fff url("/wp-content/themes/ova-dione/assets/img/icon-select-arrow.png") no-repeat 97% 50%;
+  box-shadow: none;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+/* 8AM */
+.post-password-message {
+	margin-top: 175px;
+}
+.post-password-message a {
+	color: #f4522a!important;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.arve {
+	max-width: 500px!important;
+	margin: 20px 0;
+}
+form.post-password-form input[type=submit] {
+	position: relative;
+    top: 1px;
+    left: -2px;
+    height: 51px;
+	line-height: 26px;
+	font-weight: bold;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+form.post-password-form input[type=submit]:hover {
+	background-color: #f4522a;
+}
+.tab-nav {
+	width: 100%;
+	font-size: 0;
+}
+.tab-nav-item {
+	display: inline-block;
+	margin-right: 5px;
+	padding: 15px 25px;
+	color: #000;
+	font-size: 1.8rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: 2px solid #dfdfdf;
+	border-bottom: none;
+	cursor: pointer;
+	-webkit-transition: .3s ease-in-out!important;
+	-moz-transition: .3s ease-in-out!important;
+	-o-transition: .3s ease-in-out!important;
+	transition: .3s ease-in-out!important;
+}
+.tab-nav-item:hover,
+.tab-nav-item.active {
+	color: #FFF;
+	background-color: #777;
+	border-color: #777;
+}
+.tab-nav-item.active {
+	cursor: default;
+}
+.tab {
+	display: none;
+}
+.tab.active {
+	display: block;
+	padding: 20px 40px 50px;
+	border: 2px solid #777;
+}
+@media (max-width: 550px) {
+	.tab-nav-item {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+.events {
+	padding-top: 10px;
+}
+.events .event:last-of-type + hr {
+	display: none;
+}
+.events .event .btn {
+	margin-top: 10px;
+}
+.events .event a:not(.btn) {
+	color: #f4522a;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+

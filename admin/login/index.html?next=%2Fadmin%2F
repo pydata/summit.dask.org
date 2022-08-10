@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+<head>
+<title>Log in | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="https://summit.dask.org/static/admin/css/base.1f418065fc2c.css">
+
+  <link rel="stylesheet" type="text/css" href="https://summit.dask.org/static/admin/css/nav_sidebar.0fd434145f4d.css">
+  <script src="https://summit.dask.org/static/admin/js/nav_sidebar.7605597ddf52.js" defer></script>
+
+<link rel="stylesheet" type="text/css" href="https://summit.dask.org/static/admin/css/login.c35adf41bb6e.css" />
+
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://summit.dask.org/static/admin/css/responsive.b128bdf0edef.css">
+    
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+
+<body class=" login"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+        
+        
+    </div>
+    <!-- END Header -->
+    
+    <div class="breadcrumbs">
+    <a href="/admin/">Home</a>
+     &rsaquo; Log in
+    </div>
+    
+    
+
+    <div class="main shifted" id="main">
+      
+        
+          
+<button class="sticky toggle-nav-sidebar" id="toggle-nav-sidebar" aria-label="Toggle navigation"></button>
+<nav class="sticky" id="nav-sidebar">
+  
+
+
+  <p>You don’t have permission to view or edit anything.</p>
+
+
+</nav>
+
+        
+      
+      <div class="content">
+        
+          
+        
+        <!-- Content -->
+        <div id="content" class="colM">
+          
+          
+          
+          
+
+
+
+
+<div id="content-main">
+<form action="/admin/login/?next=/admin/" method="post" id="login-form"><input type="hidden" name="csrfmiddlewaretoken" value="P6AYzFa61FnZwxrsVjDhZyzexKrLm6nFv2TB6RnvSxEOMPJq2OJepzWVmIHXTwDo">
+  <div class="form-row">
+    
+    <label class="required" for="id_username">Email:</label>
+    <input type="text" name="username" autofocus autocapitalize="none" autocomplete="username" maxlength="150" required id="id_username">
+  </div>
+  <div class="form-row">
+    
+    <label class="required" for="id_password">Password:</label> <input type="password" name="password" autocomplete="current-password" required id="id_password">
+    <input type="hidden" name="next" value="/admin/" />
+  </div>
+  
+  
+  <div class="submit-row">
+    <label>&nbsp;</label><input type="submit" value="Log in" />
+  </div>
+</form>
+
+<script type="text/javascript">
+document.getElementById('id_username').focus()
+</script>
+</div>
+
+          
+          <br class="clear">
+        </div>
+        <!-- END Content -->
+        <div id="footer"></div>
+      </div>
+    </div>
+</div>
+<!-- END Container -->
+</body>
+</html>
