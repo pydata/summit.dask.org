@@ -1,0 +1,432 @@
+/*
+Theme Name: Ova Dione
+Theme URI: http://ovathemes.com/portfolio
+Version: 1.1.7
+Description: Created by Ovatheme
+Author: Ovatheme
+Author URI: http://ovathemes.com
+License: GNU General Public License
+License URI: license.txt
+Tags: translation-ready, left-sidebar, right-sidebar
+Text Domain: ova-dione
+*/
+
+
+/*
+*    Table of Contents: 
+*        01. Section - Home
+*            - Home BG Static (default)
+*            - Home BG Parallax
+*            - Home BG Slideshow
+*            - Home BG Slider
+*        02. Countdown
+*        03. Intro
+*        04. Section - Venue
+*        05. Section - Schedule
+*            - Carousel Schedule
+*            - Timeline
+*        06. Milestones
+*        07. Section - FAQ
+*            - Accordions
+*            - Nav Stacked
+*        08. Section - Ticket
+*            - Testimonial
+*            - Pricing
+*        09. Section - Register
+*        10. Section - Contact
+*        11. Footer
+*/
+
+
+/*------------------------------------*\
+    Section - Home
+\*------------------------------------*/
+
+/*
+* Home BG Slider
+*/
+
+
+#home-bg-slideshow .display-table-cell,
+#home-bg-slider .display-table-cell {
+    position: relative;
+    z-index: 20;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Countdown
+\*------------------------------------*/
+
+.countdown {
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
+    box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
+    top: -35px;
+    z-index: 20;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Intro
+\*------------------------------------*/
+
+.intro .features-box .bg-cover {
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    height: 192px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Schedule
+\*------------------------------------*/
+
+.ova_schedule .nav-tabs > li.active > a,
+.ova_schedule .nav-tabs > li.active > a:hover,
+.ova_schedule .nav-tabs > li.active > a:focus {
+    background-color: #626262;
+    color: #ffffff;
+}
+.ova_schedule .nav-tabs > li > a {
+    color: #272727;
+}
+.ova_schedule .td-session-number {
+    width: 110px;
+}
+
+
+/*
+* Carousel Schedule
+*/
+
+.carousel-schedule .carousel-cell {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .carousel-schedule .carousel-cell {
+        width: 50%;
+    }
+}
+
+
+/*
+* Timeline
+*/
+
+.flickity-enabled.is-draggable .flickity-viewport,
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+    cursor: url("assets/img/icon-left-right-dark.png"), move;
+    cursor: url("assets/img/icon-left-right-dark.png"), -webkit-grab;
+    cursor: url("assets/img/icon-left-right-dark.png"), grab;
+}
+.timeline ul {
+    margin-left: 20px;
+    padding: 15px 0 20px;
+}
+.timeline ul:before {
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 8px;
+    left: 0;
+    margin-left: -4px;
+    position: absolute;
+    width: 8px;
+}
+.timeline-item {
+    padding: 13px 0 13px 33px;
+}
+.timeline-item:before {
+    background-color: #ffffff;
+    border: 1px solid #989898;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 12px;
+    left: 0;
+    margin-left: -6px;
+    margin-top: -6px;
+    position: absolute;
+    top: 50%;
+    width: 12px;
+}
+.timeline-item.highlight:before {
+    background-color: #989898;
+    border: 1px solid #989898;
+}
+.timeline-content {
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
+    box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
+    padding: 16px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Milestones
+\*------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------*\
+    Section - FAQ
+\*------------------------------------*/
+
+/*
+* Accordions
+*/
+
+.panel-group .panel {
+    border: 1px solid #dfdfdf;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 17px;
+}
+.panel-group .panel:last-child {
+    margin-bottom: 0;
+}
+.panel-group .panel.active .panel-heading {
+    background-color: #989898;
+}
+.panel-group .panel.active .panel-heading .panel-title a {
+    color: #ffffff;
+}
+.panel-group .panel.active .panel-heading .panel-title a:before {
+    color: #ffffff;
+}
+.panel-group .panel + .panel {
+    margin-top: 0;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 1px solid #dfdfdf;
+}
+.panel-heading {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+}
+.panel-title a {
+    color: #272727;
+    display: block;
+    padding: 14px 18px 14px 38px;
+    position: relative;
+}
+.panel-title a:before {
+    color: #989898;
+    content: '\f107';
+    display: block;
+    font-family: "FontAwesome", sans-serif;
+    font-size: 14px;
+    left: 0;
+    padding: 14px 18px;
+    position: absolute;
+    top: 0;
+}
+.panel-title a.collapsed:before {
+    content: '\f105';
+}
+.panel-title a span {
+    margin-right: 4px;
+}
+.panel-body {
+    padding: 18px 20px 8px;
+}
+.panel-body p {
+    max-width: 600px;
+}
+
+
+/*
+* Nav Stacked
+*/
+
+.nav.nav-pills.nav-stacked > li:first-child > a {
+    border-top-right-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+}
+.nav.nav-pills.nav-stacked > li:last-child > a {
+    border-bottom-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.nav.nav-pills.nav-stacked > li > a {
+    color: #272727;
+    padding: 14px 18px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Ticket
+\*------------------------------------*/
+
+/*
+* Testimonial
+*/
+
+.testimonial {
+    max-width: 400px;
+}
+.testimonial-avatar {
+    margin-top: 25px;
+}
+.testimonial-avatar img {
+    left: 0;
+    max-height: 75px;
+    position: absolute;
+    top: 0;
+}
+.testimonial-avatar-label {
+    height: 75px;
+    padding-left: 95px;
+}
+
+
+/*
+* Pricing
+*/
+
+.pricing.box-shadow-yes {
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.pricing.box-shadow-yes:hover {
+    -webkit-box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.pricing-dollar {
+    bottom: 28px;
+}
+.pricing ul > li {
+    position: relative;
+    margin-top: 10px;
+}
+.pricing ul > li.check-mark {
+    padding-left: 32px;
+}
+.pricing ul > li.check-mark:before {
+    background-color: #989898;
+    border-radius: 50%;
+    color: #ffffff;
+    content: '\2713';
+    display: block;
+    font-size: 11px;
+    left: 0;
+    line-height: 20px;
+    height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 18px;
+}
+.pricing ul > li:first-child {
+    margin-top: 0;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Register
+\*------------------------------------*/
+
+
+.form-wrapper {
+    background: rgba(0, 0, 0, 0.8);
+}
+.form-wrapper textarea {
+    height: 120px;
+}
+div.wpcf7-validation-errors{
+    color: red;
+}
+
+
+
+
+/*------------------------------------*\
+    Section - Contact
+\*------------------------------------*/
+form .select-wrapper select{
+    margin-bottom: 20px;
+    line-height: 35px;
+    height: 51px;
+    background-color: #fff;
+}
+#form-contact textarea {
+    height: 120px;
+    margin-bottom: 0;
+}
+@media (max-width: 991px) {
+    #form-contact button {
+        margin-top: 20px;
+    }
+}
+
+.comment-navigation .previous a, .comment-navigation .next a{
+    text-transform: uppercase;
+}
+
+
+
+
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+.footer {
+    padding: 50px 0 32px;
+}
+.footer-logo {
+    padding-bottom: 50px;
+}
+.footer .widget{
+    margin-bottom: 50px;
+}
+.footer-logo img {
+    width: auto;
+}
+.footer-social {
+    padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .footer-social {
+        padding-bottom: 50px;
+    }
+}
+.footer-social ul > li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 768px) {
+    .footer-social ul > li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+.footer-copyright {
+    padding-top: 32px;
+}

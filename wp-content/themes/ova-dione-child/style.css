@@ -12,7 +12,7 @@ Text Domain:  ova-dione-child
 
 /* 2021-02-13: Fix by Martey for dropdown select arrows. */
 select.form-control {
-  background: #fff url("/wp-content/themes/ova-dione/assets/img/icon-select-arrow.png") no-repeat 97% 50%;
+  background: #fff url("../ova-dione/assets/img/icon-select-arrow.png") no-repeat 97% 50%;
   box-shadow: none;
   margin-bottom: 20px;
   overflow: hidden;
